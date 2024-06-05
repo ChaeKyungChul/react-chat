@@ -7,7 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* LOGIN */
+.roundbox{
+   border-radius:20px;
+}
+.login-wrap{
+   position:relative;
+   background:#fff;
+   text-align:center;
+   padding:30px;
+   font-size:3em;
+}
+
+.login-wrap span{
+   background:#b409b4;
+   color:#fff;
+   display:inline-block;
+   width:100px;
+   height:100px;
+   border-radius:50%;
+   line-height:80px;
+   position: relative;
+   
+}
+.login-wrap span img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.login-form{
+   padding-left:50px;
+   padding-right:50px;
+}
+.login-form input{
+   padding-top:10px;
+   padding-bottom:10px;
+   display:block;
+   margin-bottom:20px;
+   background-color:#ededed;
+}
+button.submit{
+  display:block !important;
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.link{
+  display:block;
+  margin-top:20px;
+  margin-bottom:50px;
 }
